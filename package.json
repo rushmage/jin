@@ -1,0 +1,22 @@
+{
+  "name": "hoon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushmage/jin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rushmage/jin/issues"
+  },
+  "homepage": "https://github.com/rushmage/jin#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
