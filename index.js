@@ -1,4 +1,6 @@
+//express 모듈 불러오기
 const express = require("express");
+//express 사용
 const server = express();
 
 server.use(express.static(__dirname + "/public"));
