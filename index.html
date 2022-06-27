@@ -10,7 +10,7 @@
     <div class="row">
       <div class="left">
         <h1 class="red">This is Home</h1><!--웹페이지 안에 This is Home을 작성한다. 그리고 css 파일에 red함수를 가져와서 쓴다.-->
-          <div id="map" style="width:500px;height:400px;"></div>
+          <div id="map" style="width:95%;height:700px;"></div>
             <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=83faeac0d92ea1db214a80ecce75773b"></script>
             <script>
               var container = document.getElementById('map');
@@ -24,6 +24,9 @@
           </div>
       <div class="right">
         확인<br>
+        <input type="radio" name="chk_info" value="traffic">교통점수
+        <input type="radio" name="chk_info" value="market">쇼핑점수
+        <input type="radio" name="chk_info" value="natural">자연점수
         <select name="etc">
            <optgroup label="factory">
               <option value="1fact">Lv.1 factory</option>

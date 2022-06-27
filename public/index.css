@@ -18,3 +18,7 @@
   box-sizing: border-box;
   background: #ece6cc;
 }
+.map {
+  width: 90%;
+  height:700px;
+}
